@@ -2,17 +2,9 @@
 
 $w.onReady(function () {
 
-	// Write your Javascript code here using the Velo framework API
+// Write your Javascript code here using the Velo framework API
 
-	// Print hello world:
-	// console.log("Hello world!");
-
-	// Call functions on page elements, e.g.:
-	// $w("#button1").label = "Click me!";
-
-	// Click "Run", or Preview your site, to execute your code
-
-	//elements on this page
+//elements on this page
     $w('#googleMaps2')
 	$w('#rsvpRadio');
 	$w('#inviteTitle');
@@ -21,8 +13,7 @@ $w.onReady(function () {
 	$w('#location');
 	
 
-
-	//get location info
+//get location info
 
 	let saleLocation = $w('#googleMaps2').location;
 
@@ -37,10 +28,10 @@ $w.onReady(function () {
 	let firstValue = rsvpOptions[0].value;
 	let secondValue = rsvpOptions[1].value;
 
-	//keeep track of people who are coming
+//keeep track of people who are coming
 	
 
-    //to make sure info is correct
+//to make sure info is correct
 	console.log(saleLocationDescription);
 	console.log(saleLatitude);
 	console.log(saleLongitude);
