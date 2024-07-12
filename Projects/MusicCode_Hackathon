@@ -1,3 +1,5 @@
+//We used HTML to code the element that plays the music
+
 <!--HTTPS only...-->
 <iframe style="border-radius:12px" 
 src="https://open.spotify.com/embed/track/1NZs6n6hl8UuMaX0UC0YTz?utm_source=generator&theme=0"
