@@ -1,8 +1,5 @@
-// Velo API Reference: https://www.wix.com/velo/reference/api-overview/introduction
 
 $w.onReady(function () {
-
-// Write your Javascript code here using the Velo framework API
 
 //elements on this page
     $w('#googleMaps2')
@@ -12,23 +9,20 @@ $w.onReady(function () {
 	$w('#selling')
 	$w('#location');
 	
-
 //get location info
 
-	let saleLocation = $w('#googleMaps2').location;
+let saleLocation = $w('#googleMaps2').location;
 
-	let saleLatitude = saleLocation.latitude;
-	let saleLongitude = saleLocation.longitude;
-	let saleLocationDescription = saleLocation.description;
+let saleLatitude = saleLocation.latitude;
+let saleLongitude = saleLocation.longitude;
+let saleLocationDescription = saleLocation.description;
 
-	//get rsvp info
+//get rsvp info
 
-	let rsvpOptions = $w('#rsvpRadio').options;
+let rsvpOptions = $w('#rsvpRadio').options;
 
-	let firstValue = rsvpOptions[0].value;
-	let secondValue = rsvpOptions[1].value;
-
-//keeep track of people who are coming
+let firstValue = rsvpOptions[0].value;
+let secondValue = rsvpOptions[1].value;
 	
 
 //to make sure info is correct
@@ -37,9 +31,4 @@ $w.onReady(function () {
 	console.log(saleLongitude);
 	console.log(firstValue);
 	console.log(secondValue);
-
-
-
-
-
 });
